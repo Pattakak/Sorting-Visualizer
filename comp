@@ -1,0 +1,4 @@
+#Compile instructions for program
+
+#g++ src/*.cpp -o sort -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
+g++ src/glad.c src/*.cpp -o sort -lglfw3 -lGL -lX11 -lXi -lXrandr -lXxf86vm -lXinerama -lXcursor -lrt -lm -lpthread -ldl
