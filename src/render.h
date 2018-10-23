@@ -2,5 +2,6 @@
 #define RENDER_H
 
 void init();
-void renderArray(int elements[]);
+void loop(int array[], int arrLength);
+unsigned int renderArray(int elements[], int arrLength);
 #endif 

@@ -38,14 +38,15 @@ void shuffle(int *array, size_t n)
 }
 
 int main() {
-    int length = 100; //Number of elements to sort
+    int length = 50000; //Number of elements to sort
 
     init();
+
     int arr[length];
     generateArray(arr, length);
     shuffle(arr, length);
 
-    cout << endl;
+    loop(arr, length);
 
     return 0;
 }
