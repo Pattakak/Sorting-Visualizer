@@ -1,0 +1,2 @@
+/home/patrick/theTrashbin/cpp/sorting/Sorting-Visualizer/CMakeFiles/rebuild_cache.dir
+/home/patrick/theTrashbin/cpp/sorting/Sorting-Visualizer/CMakeFiles/edit_cache.dir
